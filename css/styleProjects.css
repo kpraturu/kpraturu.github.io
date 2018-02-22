@@ -60,7 +60,8 @@ body {
     height: 215px;
     color: #262626;
     padding: 15px;
-    padding-top: 33px;
+    padding-top: 0px;
+    padding-bottom: 70px;
     vertical-align: middle;
     margin: 5px 25px;
     z-index: 200;
@@ -74,6 +75,31 @@ body {
 .info:hover #projectTitle {
     color: #EC407A;
 }
+
+
+
+.infoBig {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    color: #262626;
+    padding: 15px;
+    padding-top: 33px;
+    padding-bottom: 70px;
+    vertical-align: middle;
+    margin: 5px 25px;
+    z-index: 200;
+}
+.infoBig:hover {
+    cursor:pointer;
+}
+.infoBig:hover #projectInfo {
+    color: #CD5C5C;
+}
+.infoBig:hover #projectTitle {
+    color: #EC407A;
+}
+
 #projectInfo {
     font-family: 'ralewayblack';
     text-align: center;
@@ -85,6 +111,7 @@ body {
     text-align: center;
     color: #CD5C5C;
 }
+
 #cf {
     transform: scale(1);
     transition: all 0.3s;
