@@ -1,0 +1,48 @@
+/*CSS Document*/
+
+@font-face {
+    font-family: 'alpha_echoregular';
+    src: url('fonts/alpha_echo-webfont.eot');
+    src: url('fonts/alpha_echo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/alpha_echo-webfont.woff') format('woff'),
+         url('fonts/alpha_echo-webfont.ttf') format('truetype'),
+         url('fonts/alpha_echo-webfont.svg#alpha_echoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('fonts/raleway-black-webfont.eot');
+    src: url('fonts/raleway-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-black-webfont.woff2') format('woff2'),
+         url('fonts/raleway-black-webfont.woff') format('woff'),
+         url('fonts/raleway-black-webfont.ttf') format('truetype'),
+         url('fonts/raleway-black-webfont.svg#ralewayblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+z-index: inherit;
+}
+body {
+
+    background-color: #2d2d2d;
+}
+
+#headText {
+    font-family: 'alpha_echoregular';
+    font-size: 50px;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    color: #FFFFC6;
+    width: 100px;
+}
+
+#headText:hover {
+    color: #CD5C5C;
+    cursor: pointer;
+}

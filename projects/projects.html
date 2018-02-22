@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Projects</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="../css/styleProjects.css">
+  </head>
+  <body>
+
+    <div id="head">
+      <h1 id="headText" onclick="window.open('../index.html','_self');"> Projects </h1>
+    </div>
+    <div class="container">
+        <div class="info" onmouseover="hoverC(document.getElementById('cad'));" onmouseout="unhoverC(document.getElementById('cad'));"
+          onclick="window.open('https://github.com/kpraturu/HackFSU-162', '_new');">
+            <h3 id="projectTitle">ViRCAD</h3>
+            <img id="cad" src="../img/CAD.png" height="200" width="200"/>
+            <h4 id="projectInfo">Click for more info!</h4>
+        </div>
+        <div class="info" onclick="window.open('https://github.com/as1216/hackduke15','_new');">
+            <h3 id="projectTitle">CourseFree</h3>
+            <img id="cf" src="../img/cfIcon.png" height="200" width="200"/>
+            <h4 id="projectInfo">Click for more info!</h4>
+        </div>
+
+        <div class="info" onmouseover="hoverA(document.getElementById('attack'));" onmouseout="unhoverA(document.getElementById('attack'));"
+          onclick="window.open('AttackSquares/AttackSquares.html', '_new');">
+          <h3 id="projectTitle">Attack Squares</h3>
+           <img id="attack" src="../img/attackSquares.png" height="200" width="200"/>
+           <h4 id="projectInfo">Click to play!</h4>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/scriptProjects.js"></script>
+  </body>
+</html>
